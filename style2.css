@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono:500");
+
+html * { margin:0;
+    padding: 0px;
+    border: 0px;
+    max-width: 100% !important;
+    font-family: "roboto mono", sans-serif;
+}
+
+section {
+    height: 500px;
+    border: solid black 1px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+footer{
+    height: 350px;
+    background-color: black;
+}
+
+.name{
+    height: 100vh;
+    max-height: 100%;
+    /* width: auto; */
+    /* width: 100%; */
+    color: white;
+    font-size: 40px;
+}
+
+#name{
+    font-size: 50px;
+    border: solid white 1px;
+    padding: 2px 4px 2px 4px;
+    border-radius: 5px;
+}
